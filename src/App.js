@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 
 // Import all images directly from src/images
+//to test vercel
 import backgroundImage from "./images/background.jpg";
 import logoImage from "./images/Logo_itlegendz_bbg.png";
 import bannerImage from "./images/banner.jpg";
