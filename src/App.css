@@ -1,0 +1,165 @@
+/* === GLOBAL === */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+}
+
+/* === TOP NAVBAR === */
+.top_nav {
+  background: #222;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.top_nav .info li {
+  margin-right: 20px;
+}
+.top_nav .info li a {
+  color: #fff;
+  text-decoration: none;
+}
+.top_nav .social_icon li {
+  margin-left: 10px;
+}
+.top_nav .social_icon a {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* === NAVBAR === */
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+.navbar-brand img.logo {
+  max-height: 50px;
+}
+.navbar .menu li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.navbar .menu a {
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+}
+.navbar .menu a:hover {
+  color: #007bff;
+}
+
+/* === HERO SECTION === */
+.home {
+  background-image: url("./images/background.jpg"); /* correct path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+  position: relative;
+}
+
+.home img {
+  width: 100%;
+  height: auto;
+}
+.home .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+.home .carousel-caption {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.home h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.home h3 {
+  font-size: 20px;
+}
+
+/* === ABOUT SECTION === */
+#about {
+  padding: 80px 0;
+}
+#about h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+#about h3 {
+  font-size: 24px;
+  color: #007bff;
+}
+.about_banner img {
+  max-width: 100%;
+}
+
+/* === SERVICES === */
+#services {
+  padding: 80px 0;
+  background: #f5f5f5;
+  text-align: center;
+}
+#services h2 {
+  margin-bottom: 40px;
+}
+.service_item {
+  margin-bottom: 30px;
+}
+.service_item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* === CONTACT === */
+#contact_form {
+  padding: 80px 0;
+}
+#contact_form input,
+#contact_form textarea {
+  margin-bottom: 15px;
+}
+.submit_btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+.submit_btn:hover {
+  background: #0056b3;
+}
+
+/* === FOOTER === */
+footer {
+  background: #222;
+  color: #aaa;
+  padding: 30px 0;
+}
+footer a {
+  color: #aaa;
+}
+footer a:hover {
+  color: #fff;
+}
+.footer_bottom {
+  border-top: 1px solid #444;
+  margin-top: 20px;
+  padding-top: 10px;
+}
