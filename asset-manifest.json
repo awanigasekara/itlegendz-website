@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/itlegendz-website/static/css/main.1447f9fb.css",
+    "main.js": "/itlegendz-website/static/js/main.d4f32bd3.js",
+    "static/js/453.3bbbe001.chunk.js": "/itlegendz-website/static/js/453.3bbbe001.chunk.js",
+    "static/media/Logo_itlegendz_bbg.png": "/itlegendz-website/static/media/Logo_itlegendz_bbg.809be441e1bde835a21f.png",
+    "static/media/man.png": "/itlegendz-website/static/media/man.63295fbc573fd7c395ac.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/itlegendz-website/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/background.jpg": "/itlegendz-website/static/media/background.3f765c26cbb7bc2d27fb.jpg",
+    "static/media/fontawesome-webfont.eot": "/itlegendz-website/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/itlegendz-website/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/banner.jpg": "/itlegendz-website/static/media/banner.8c4ac2e074fe9475edbf.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/itlegendz-website/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/service_img1.jpg": "/itlegendz-website/static/media/service_img1.cc29462f8185c6b97356.jpg",
+    "static/media/service_img2.jpg": "/itlegendz-website/static/media/service_img2.e71933634773369edd37.jpg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/itlegendz-website/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/service_img3.jpg": "/itlegendz-website/static/media/service_img3.aa86177d2c76b35d5a13.jpg",
+    "index.html": "/itlegendz-website/index.html",
+    "main.1447f9fb.css.map": "/itlegendz-website/static/css/main.1447f9fb.css.map",
+    "main.d4f32bd3.js.map": "/itlegendz-website/static/js/main.d4f32bd3.js.map",
+    "453.3bbbe001.chunk.js.map": "/itlegendz-website/static/js/453.3bbbe001.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1447f9fb.css",
+    "static/js/main.d4f32bd3.js"
+  ]
+}
