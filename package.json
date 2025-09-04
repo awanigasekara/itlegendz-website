@@ -16,13 +16,6 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-<<<<<<< HEAD
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
-  },
-=======
-  "homepage": "https://awanigasekara.github.io/itlegendz-website",
->>>>>>> 1cfd07c (Fix remote and prepare for deploy)
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -32,10 +25,17 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": ["react-app", "react-app/jest"]
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
