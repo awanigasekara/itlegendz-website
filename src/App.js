@@ -1,7 +1,7 @@
 import React from "react";
-<<<<<<< HEAD
 import "./App.css";
-// Import all images directly from the src/images folder
+
+// Import all images directly from src/images
 import backgroundImage from "./images/background.jpg";
 import logoImage from "./images/Logo_itlegendz_bbg.png";
 import bannerImage from "./images/banner.jpg";
@@ -9,9 +9,6 @@ import manImage from "./images/man.png";
 import serviceImage1 from "./images/service_img1.jpg";
 import serviceImage2 from "./images/service_img2.jpg";
 import serviceImage3 from "./images/service_img3.jpg";
-=======
-import "./App.css"; // global styles
->>>>>>> 1cfd07c (Fix remote and prepare for deploy)
 
 function App() {
   return (
@@ -36,20 +33,16 @@ function App() {
                 <span className="fa fa-clock-o"></span> Mon - Sat 8:00 - 18:00
               </li>
               <li>
-<<<<<<< HEAD
                 <a href="https://facebook.com" target="_blank" rel="noreferrer">
-=======
-                <a href="https://facebook.com">
->>>>>>> 1cfd07c (Fix remote and prepare for deploy)
                   <span className="fa fa-facebook"></span>
                 </a>
               </li>
               <li>
-<<<<<<< HEAD
-                <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
-=======
-                <a href="https://www.youtube.com">
->>>>>>> 1cfd07c (Fix remote and prepare for deploy)
+                <a
+                  href="https://www.youtube.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <span className="fa fa-youtube"></span>
                 </a>
               </li>
@@ -61,33 +54,30 @@ function App() {
         <nav className="navbar">
           <div className="container">
             <a className="navbar-brand" href="#home">
-              <img
-                className="logo"
-<<<<<<< HEAD
-                // Use the imported variable for the logo
-                src={logoImage}
-=======
-                src="/images/Logo_itlegendz_bbg.png"
->>>>>>> 1cfd07c (Fix remote and prepare for deploy)
-                alt="ITLEGENDZ Logo"
-              />
+              <img className="logo" src={logoImage} alt="ITLEGENDZ Logo" />
             </a>
             <ul className="nav navbar-nav menu">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#contact_form">Contact Us</a></li>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#about">About Us</a>
+              </li>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#contact_form">Contact Us</a>
+              </li>
             </ul>
           </div>
         </nav>
       </header>
 
       {/* Hero Section */}
-<<<<<<< HEAD
       <section
         id="home"
         className="home"
-        // Use the imported variable for the background image
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div className="overlay"></div>
@@ -100,17 +90,7 @@ function App() {
 
       {/* Banner Section */}
       <section className="banner">
-        {/* Use the imported variable for the banner image */}
         <img src={bannerImage} alt="Banner" className="banner-img" />
-=======
-      <section id="home" className="home">
-        <div className="overlay"></div>
-      </section>
-
-      {/* Banner */}
-      <section className="banner">
-        <img src="/images/banner.jpg" alt="Banner" className="banner-img" />
->>>>>>> 1cfd07c (Fix remote and prepare for deploy)
       </section>
 
       {/* About Section */}
@@ -122,25 +102,15 @@ function App() {
                 <h2>Welcome to Our Company</h2>
                 <h3>Smart Solution Providers</h3>
                 <p>
-<<<<<<< HEAD
                   Founded in June 2025, our company specializes in software
                   development, maintenance, and Quality Assurance engineering
-=======
-                  Founded in June 2025, our company specializes in Software
-                  development, maintenance and Quality Assurance engineering
->>>>>>> 1cfd07c (Fix remote and prepare for deploy)
                   services.
                 </p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-lg-offset-1">
               <div className="about_banner">
-<<<<<<< HEAD
-                {/* Use the imported variable for the man image */}
                 <img src={manImage} alt="About Banner" />
-=======
-                <img src="/images/man.png" alt="About Banner" />
->>>>>>> 1cfd07c (Fix remote and prepare for deploy)
               </div>
             </div>
           </div>
@@ -153,30 +123,21 @@ function App() {
           <h2>OUR SERVICES</h2>
           <div className="row">
             <div className="col-md-4 service_item">
-<<<<<<< HEAD
-              {/* Use the imported variables for service images */}
               <img src={serviceImage1} alt="Service 1" />
-=======
-              <img src="/images/service_img1.jpg" alt="Service 1" />
->>>>>>> 1cfd07c (Fix remote and prepare for deploy)
               <h3>Software Development and Maintenance</h3>
-              <p>Proven professionals ensuring Quality systems and maintenance.</p>
+              <p>
+                Proven professionals ensuring Quality systems and maintenance.
+              </p>
             </div>
             <div className="col-md-4 service_item">
-<<<<<<< HEAD
               <img src={serviceImage2} alt="Service 2" />
-=======
-              <img src="/images/service_img2.jpg" alt="Service 2" />
->>>>>>> 1cfd07c (Fix remote and prepare for deploy)
               <h3>QA Automation</h3>
-              <p>Automating testing processes to save time and increase accuracy.</p>
+              <p>
+                Automating testing processes to save time and increase accuracy.
+              </p>
             </div>
             <div className="col-md-4 service_item">
-<<<<<<< HEAD
               <img src={serviceImage3} alt="Service 3" />
-=======
-              <img src="/images/service_img3.jpg" alt="Service 3" />
->>>>>>> 1cfd07c (Fix remote and prepare for deploy)
               <h3>Smart App Solutions</h3>
               <p>Tailored smart solutions for both public and private sectors.</p>
             </div>
@@ -191,14 +152,13 @@ function App() {
           <form>
             <input type="text" placeholder="Name" className="form-control" />
             <input type="email" placeholder="Email" className="form-control" />
-            <textarea placeholder="Message" className="form-control"></textarea>
-<<<<<<< HEAD
-            <button type="submit" className="btn submit_btn">Submit</button>
-=======
+            <textarea
+              placeholder="Message"
+              className="form-control"
+            ></textarea>
             <button type="submit" className="btn submit_btn">
               Submit
             </button>
->>>>>>> 1cfd07c (Fix remote and prepare for deploy)
           </form>
         </div>
       </section>
@@ -207,7 +167,8 @@ function App() {
       <footer>
         <div className="footer_bottom text-center">
           <p>
-            Made with <i className="fa fa-heart"></i> by ITlegendz © 2025. All Rights Reserved
+            Made with <i className="fa fa-heart"></i> by ITlegendz © 2025. All
+            Rights Reserved
           </p>
         </div>
       </footer>
