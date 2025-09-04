@@ -21,7 +21,7 @@
     "gh-pages": "^6.3.0"
   },
 =======
-  "homepage": "https://yourusername.github.io/itlegendz-website",
+  "homepage": "https://awanigasekara.github.io/itlegendz-website",
 >>>>>>> 1cfd07c (Fix remote and prepare for deploy)
   "scripts": {
     "start": "react-scripts start",
