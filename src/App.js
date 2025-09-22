@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 
 // Import all images directly from src/images
-//to test vercel
 import backgroundImage from "./images/background.jpg";
 import logoImage from "./images/Logo_itlegendz_bbg.png";
 import bannerImage from "./images/banner.jpg";
@@ -68,6 +67,9 @@ function App() {
                 <a href="#services">Services</a>
               </li>
               <li>
+                <a href="#whychoose">Why Choose Us</a>
+              </li>
+              <li>
                 <a href="#contact_form">Contact Us</a>
               </li>
             </ul>
@@ -83,9 +85,19 @@ function App() {
       >
         <div className="overlay"></div>
         <div className="carousel-caption">
-          <h3>We are Certified Engineers</h3>
-          <h1>Smart City Feature Developments</h1>
-          <h1 className="second_heading">Creative & Professional</h1>
+          <h1>Smart IT solutions for a smarter tomorrow</h1>
+          <p>
+            At ITLEGENDZ, we envision a world where businesses and communities
+            thrive through intelligent, future-ready digital solutions.
+          </p>
+          <div className="hero-buttons">
+            <a href="#services" className="btn btn-primary">
+              Explore Our Services
+            </a>
+            <a href="#contact_form" className="btn btn-secondary">
+              Start Your Smart Journey
+            </a>
+          </div>
         </div>
       </section>
 
@@ -100,12 +112,31 @@ function App() {
           <div className="row">
             <div className="col-lg-7 col-md-6">
               <div className="about_content">
-                <h2>Welcome to Our Company</h2>
-                <h3>Smart Solution Providers</h3>
+                <h2>About Us</h2>
                 <p>
-                  Founded in June 2025, our company specializes in software
-                  development, maintenance, and Quality Assurance engineering
-                  services.
+                  At ITLEGENDZ Ltd, we are more than just an IT service provider
+                  — we are your partner in digital growth. Our mission is to
+                  empower businesses with cutting-edge smart solutions that
+                  enhance efficiency, foster innovation, and create long-term
+                  value.
+                </p>
+                <p>
+                  With a passion for excellence and a commitment to reliability,
+                  we bring together expertise in software development,
+                  automation, AI, cloud, and smart business solutions.
+                </p>
+                <h3>Our Vision</h3>
+                <p>
+                  To be a trusted global partner in delivering innovative and
+                  intelligent IT solutions that empower businesses and
+                  communities to thrive in the digital age.
+                </p>
+                <h3>Our Mission</h3>
+                <p>
+                  To provide cutting-edge, reliable, and scalable smart
+                  solutions tailored to our clients’ unique needs — combining
+                  innovation, quality, and customer-centric service to drive
+                  digital transformation and create long-term value.
                 </p>
               </div>
             </div>
@@ -121,28 +152,43 @@ function App() {
       {/* Services */}
       <section id="services">
         <div className="container">
-          <h2>OUR SERVICES</h2>
+          <h2>Our Services</h2>
           <div className="row">
             <div className="col-md-4 service_item">
               <img src={serviceImage1} alt="Service 1" />
-              <h3>Software Development and Maintenance</h3>
-              <p>
-                Proven professionals ensuring Quality systems and maintenance.
-              </p>
+              <h3>Smart Solutions Development</h3>
+              <p>Custom-built intelligent applications for business growth.</p>
             </div>
             <div className="col-md-4 service_item">
               <img src={serviceImage2} alt="Service 2" />
-              <h3>QA Automation</h3>
+              <h3>Automation & Quality Assurance</h3>
               <p>
-                Automating testing processes to save time and increase accuracy.
+                Streamlining processes with AI-driven automation and reliable
+                testing.
               </p>
             </div>
             <div className="col-md-4 service_item">
               <img src={serviceImage3} alt="Service 3" />
-              <h3>Smart App Solutions</h3>
-              <p>Tailored smart solutions for both public and private sectors.</p>
+              <h3>Cloud & Infrastructure Solutions</h3>
+              <p>
+                Scalable, secure, and future-proof IT infrastructure to support
+                growth.
+              </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us */}
+      <section id="whychoose">
+        <div className="container">
+          <h2>Why Choose Us</h2>
+          <ul className="why-list">
+            <li>✅ Innovation-Driven – We design future-ready smart solutions.</li>
+            <li>✅ Customer-Centric – Your goals define our strategies.</li>
+            <li>✅ Scalable & Reliable – Solutions built to grow with your business.</li>
+            <li>✅ Expertise That Delivers – Technical knowledge + real-world problem-solving.</li>
+          </ul>
         </div>
       </section>
 
@@ -168,7 +214,7 @@ function App() {
       <footer>
         <div className="footer_bottom text-center">
           <p>
-            Made with <i className="fa fa-heart"></i> by ITlegendz © 2025. All
+            Made with <i className="fa fa-heart"></i> by ITLEGENDZ © 2025. All
             Rights Reserved
           </p>
         </div>
