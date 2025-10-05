@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
+/*import Career from "./Career";*/
 
 // Import all images directly from src/images
 import backgroundImage from "./images/background.jpg";
 import logoImage from "./images/Logo_itlegendz_bbg.png";
 import bannerImage from "./images/banner.jpg";
-import manImage from "./images/man.png";
+import manImage from "./images/man.jpg";
 import serviceImage1 from "./images/service_img1.jpg";
 import serviceImage2 from "./images/service_img2.jpg";
 import serviceImage3 from "./images/service_img3.jpg";
@@ -70,6 +71,9 @@ function App() {
                 <a href="#whychoose">Why Choose Us</a>
               </li>
               <li>
+                <a href="/career">Careers</a>
+              </li>   {/* new link */}
+              <li>
                 <a href="#contact_form">Contact Us</a>
               </li>
             </ul>
@@ -112,37 +116,44 @@ function App() {
           <div className="row">
             <div className="col-lg-7 col-md-6">
               <div className="about_content">
-                <h2>About Us</h2>
+                <h2>Welcome to ITLEGENDZ Ltd</h2>
+                <h3>Smart Solution Providers</h3>
                 <p>
-                  At ITLEGENDZ Ltd, we are more than just an IT service provider
-                  — we are your partner in digital growth. Our mission is to
-                  empower businesses with cutting-edge smart solutions that
-                  enhance efficiency, foster innovation, and create long-term
-                  value.
+                  Founded in June 2025, ITLEGENDZ Ltd specializes in software
+                  development, maintenance, and Quality Assurance engineering
+                  services. We deliver smart, scalable, and future-ready IT solutions
+                  to empower businesses across industries.
                 </p>
-                <p>
-                  With a passion for excellence and a commitment to reliability,
-                  we bring together expertise in software development,
-                  automation, AI, cloud, and smart business solutions.
-                </p>
-                <h3>Our Vision</h3>
-                <p>
-                  To be a trusted global partner in delivering innovative and
-                  intelligent IT solutions that empower businesses and
-                  communities to thrive in the digital age.
-                </p>
-                <h3>Our Mission</h3>
-                <p>
-                  To provide cutting-edge, reliable, and scalable smart
-                  solutions tailored to our clients’ unique needs — combining
-                  innovation, quality, and customer-centric service to drive
-                  digital transformation and create long-term value.
-                </p>
+
+                {/* Vision & Mission */}
+                <div className="vision-mission">
+                  <h4>Our Vision</h4>
+                  <p>
+                    To be a global leader in smart IT solutions, enabling businesses
+                    and communities to thrive through innovation and technology.
+                  </p>
+                  <h4>Our Mission</h4>
+                  <p>
+                    To deliver intelligent, reliable, and customer-focused digital
+                    solutions that drive transformation, efficiency, and growth.
+                  </p>
+                </div>
               </div>
             </div>
+
             <div className="col-lg-3 col-md-6 col-lg-offset-1">
               <div className="about_banner">
-                <img src={manImage} alt="About Banner" />
+                <img src={manImage} alt="Director" className="director-photo" />
+                <div className="director-message">
+                  <h4>Director’s Message</h4>
+                  <p>
+                    At ITLEGENDZ Ltd, we are driven to deliver smart, scalable, and
+                    future-ready IT solutions that empower businesses to grow with
+                    confidence. My commitment is to build lasting partnerships based
+                    on trust, innovation, and excellence.
+                  </p>
+                  <p className="director-name"><strong>- Asanka Wanigasekara, Director</strong></p>
+                </div>
               </div>
             </div>
           </div>
