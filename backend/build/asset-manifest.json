@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2db57bfb.css",
+    "main.js": "/static/js/main.489f7644.js",
+    "static/js/453.3bbbe001.chunk.js": "/static/js/453.3bbbe001.chunk.js",
+    "static/media/Logo_itlegendz_bbg.png": "/static/media/Logo_itlegendz_bbg.809be441e1bde835a21f.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/background.jpg": "/static/media/background.3f765c26cbb7bc2d27fb.jpg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/banner.jpg": "/static/media/banner.8c4ac2e074fe9475edbf.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/service_img1.jpg": "/static/media/service_img1.cc29462f8185c6b97356.jpg",
+    "static/media/career_banner.jpg": "/static/media/career_banner.1c74911ccc63367eead9.jpg",
+    "static/media/service_img2.jpg": "/static/media/service_img2.e71933634773369edd37.jpg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/service_img3.jpg": "/static/media/service_img3.aa86177d2c76b35d5a13.jpg",
+    "static/media/man.jpg": "/static/media/man.d33abb70e7bf65b7fe04.jpg",
+    "index.html": "/index.html",
+    "main.2db57bfb.css.map": "/static/css/main.2db57bfb.css.map",
+    "main.489f7644.js.map": "/static/js/main.489f7644.js.map",
+    "453.3bbbe001.chunk.js.map": "/static/js/453.3bbbe001.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2db57bfb.css",
+    "static/js/main.489f7644.js"
+  ]
+}

@@ -11,17 +11,22 @@ import serviceImage2 from "./images/service_img2.jpg";
 import serviceImage3 from "./images/service_img3.jpg";
 
 function App() {
-  // ✅ Backend URL (easy to update for production)
+  // ✅ Backend URL — relative for production, localhost for dev
   const BACKEND_URL =
-    process.env.REACT_APP_BACKEND_URL || "http://localhost:5000/send-email";
+    process.env.REACT_APP_BACKEND_URL || "/send-email";
 
   // ✅ Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const name = e.target.name.value;
-    const email = e.target.email.value;
-    const message = e.target.message.value;
+    const name = e.target.name.value.trim();
+    const email = e.target.email.value.trim();
+    const message = e.target.message.value.trim();
+
+    if (!name || !email || !message) {
+      alert("⚠️ Please fill out all fields.");
+      return;
+    }
 
     try {
       const res = await fetch(BACKEND_URL, {
@@ -102,7 +107,12 @@ function App() {
       <section
         id="home"
         className="home"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
       >
         <div className="overlay"></div>
         <div className="carousel-caption">
