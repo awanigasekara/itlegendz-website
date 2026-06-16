@@ -5,7 +5,7 @@ import "./App.css";
 import backgroundImage from "./images/background.jpg";
 import logoImage from "./images/Logo_itlegendz_bbg.png";
 import bannerImage from "./images/banner.jpg";
-import manImage from "./images/man.jpg";
+//import manImage from "./images/man.jpg";
 import serviceImage1 from "./images/service_img1.jpg";
 import serviceImage2 from "./images/service_img2.jpg";
 import serviceImage3 from "./images/service_img3.jpg";
@@ -141,7 +141,7 @@ function App() {
       <section id="about">
         <div className="container about_bg">
           <div className="row">
-            <div className="col-lg-7 col-md-6">
+            <div className="col-lg-12 col-md-12">
               <div className="about_content">
                 <h2>Welcome to ITLEGENDZ Ltd</h2>
                 <h3>Smart Solution Providers</h3>
@@ -165,7 +165,7 @@ function App() {
                 </p>
               </div>
             </div>
-
+            {/*
             <div className="col-lg-3 col-md-6 col-lg-offset-1">
               <div className="about_banner">
                 <img src={manImage} alt="Director" className="director-photo" />
@@ -182,6 +182,7 @@ function App() {
                 </div>
               </div>
             </div>
+            */}
           </div>
         </div>
       </section>
